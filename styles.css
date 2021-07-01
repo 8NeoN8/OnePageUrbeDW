@@ -1,4 +1,13 @@
-
+font-family: Helvetica;
+        background-color: #ebebeb;
+        background-attachment: fixed;
+        background-image: url(images/bg-cirno.jpg);
+        background-position:top;
+        background-repeat: no-repeat;
+        background-size: 80cm;
+        padding-top: 0px;
+        padding-left: 3px;
+        padding-right: 3px;
     
 .page-header{
     
