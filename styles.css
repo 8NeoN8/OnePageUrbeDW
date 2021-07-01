@@ -1,8 +1,9 @@
 
     
 .page-header{
-
-    position: sticky;
+    
+    position: fixed;
+    top: 0px;
     background-color: grey;
     height: 40px;
 
@@ -16,9 +17,6 @@
 
 }
 
-
-
-/* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
@@ -391,7 +389,7 @@ input[type=text], select, textarea {
 
         background-color: rgb(27, 27, 27);
         height: 20px;
-        position: sticky;
+        position: fixed;
         top: 0px;
     
     }
@@ -486,7 +484,7 @@ input[type=text], select, textarea {
 
         background-color: rgb(27, 27, 27);
         height: 20px;
-        position: sticky;
+        position: fixed;
         top: 0px;
     
     }
