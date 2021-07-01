@@ -191,7 +191,7 @@ input[type=text], select, textarea {
 
     .main-content-wrapper{
         
-        padding-top: 30px;
+        padding-top: 50px;
         padding-left: 20px;
  
      }
@@ -286,7 +286,7 @@ input[type=text], select, textarea {
 
     .main-content-wrapper{
         
-        padding-top: 30px;
+        padding-top: 50px;
         padding-left: 20px;
  
      }
@@ -382,7 +382,7 @@ input[type=text], select, textarea {
     
     .main-content-wrapper{
        
-       padding-top: 30px;
+       padding-top: 50px;
        padding-left: 20px;
 
     }
@@ -477,7 +477,8 @@ input[type=text], select, textarea {
 
     
     .main-content-wrapper{
-
+        
+       padding-top: 50px;
        padding-left: 20px;
 
     }
