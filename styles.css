@@ -98,7 +98,8 @@ input[type=text], select, textarea {
     }
 
     .main-content-wrapper{
-
+        
+        padding-top: 30px;
         padding-left: 20px;
  
      }
@@ -191,7 +192,8 @@ input[type=text], select, textarea {
     }
 
     .main-content-wrapper{
-
+        
+        padding-top: 30px;
         padding-left: 20px;
  
      }
@@ -285,7 +287,8 @@ input[type=text], select, textarea {
     }
 
     .main-content-wrapper{
-
+        
+        padding-top: 30px;
         padding-left: 20px;
  
      }
@@ -380,7 +383,8 @@ input[type=text], select, textarea {
 
     
     .main-content-wrapper{
-
+       
+       padding-top: 30px;
        padding-left: 20px;
 
     }
@@ -491,7 +495,7 @@ input[type=text], select, textarea {
 
 
     .Page-content-markers{
-
+        padding-top: 30px;
         margin-left: -15px;
     }
 
