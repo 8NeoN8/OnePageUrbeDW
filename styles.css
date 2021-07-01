@@ -372,7 +372,7 @@ input[type=text], select, textarea {
 
 }
 
-@media all and (min-width: 361) and (max-width: 414px) {
+@media all and (min-width: 361px) and (max-width: 414px) {
 
     .one-page{
 
