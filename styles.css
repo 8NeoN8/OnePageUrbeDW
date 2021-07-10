@@ -166,7 +166,7 @@ input[type="submit"]:hover {
 
 @media all and (max-width: 1536px) {
   .one-page {
-    background-size: 40cm;
+    background-size: 50cm;
   }
 
   .section-divider {
