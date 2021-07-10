@@ -197,13 +197,12 @@ input[type="submit"]:hover {
 }
 
 @media all and (max-width: 1080px) {
-  
   .header-content-marker {
-    font-size: 30px;
+    font-size: 25px;
     padding-right: 40px;
     padding-top: 12px;
   }
-  
+
   .header-content-marker {
     font-size: 20px;
     padding-top: 15px;
@@ -233,7 +232,7 @@ input[type="submit"]:hover {
   }
 
   .header-content-marker {
-    font-size: 17px;
+    font-size: 16px;
     list-style: none;
     padding-right: 18px;
     padding-top: 15px;
@@ -256,7 +255,7 @@ input[type="submit"]:hover {
   }
 
   .header-content-marker {
-    font-size: 13px;
+    font-size: 12px;
     list-style: none;
     padding-right: 11px;
     padding-top: 15px;
