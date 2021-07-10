@@ -1,566 +1,379 @@
-font-family: Helvetica;
-        background-color: #ebebeb;
-        background-attachment: fixed;
-        background-image: url(images/bg-cirno.jpg);
-        background-position:top;
-        background-repeat: no-repeat;
-        background-size: 100%;
-        padding-top: 0px;
-        padding-left: 3px;
-        padding-right: 3px;
-    
-.page-header{
-    
-    background-color: grey;
-    height: 40px;
-
+.one-page {
+  font-family: Helvetica;
+  background-color: #ebebeb;
+  background-attachment: fixed;
+  background-image: url(images/bg-tenshi.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 65cm;
 }
 
-.Page-content-markers{
-
-    display: flex;
-    
-    text-align: left;
-
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type=text], select, textarea {
+input[type="submit"] {
+  background-color: #aa0481bb;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+input[type="submit"]:hover {
+  background-color: #aa0481;
+}
+
+.contact-wrapper {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 5px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pj-images {
+  position: relative;
+  left: 30%;
+}
+
+.Page-content-markers {
+  display: flex;
+  text-align: left;
+}
+
+.main-content-wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 1px;
+}
+
+.page-header {
+  background-color: rgb(27, 27, 27);
+  height: 70px;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.Page-content-markers {
+  margin-left: -15px;
+}
+
+.header-content-marker {
+  font-size: 30px;
+  list-style: none;
+  padding-right: 70px;
+  padding-top: 12px;
+}
+
+.marisa-ico2 {
+  margin-left: -12px;
+  padding-top: 3px;
+}
+
+.marisa-ico {
+  display: none;
+}
+
+.header-link {
+  color: #ebebeb;
+  text-decoration: none;
+}
+
+.header-content-marker a {
+  text-decoration: none;
+}
+
+.section-divider {
+  font-size: 50px;
+}
+
+.info-block {
+  font-size: 35px;
+  line-height: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+.main-content-wrapper {
+  background-color: #ebebeb7e;
+}
+
+@media screen and (max-width: 360px) {
+  .column,
+  input[type="submit"] {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+    margin-top: 0;
   }
-  
-  input[type=submit] {
-    background-color: #aa0481bb;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 15px;
-  }
-  
-  input[type=submit]:hover {
-    background-color: #aa0481;
-  }
-  
-  .contact-wrapper {
-    display: inline-block;
-    border-radius: 10px;
-    background-color: #f2f2f2;
-    padding: 5px;
-  }
-  
+
   .column {
     float: left;
-    width: 50%;
+    width: 80%;
     margin-top: 6px;
-    padding: 20px;
+    padding: 10px;
   }
-
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  @media screen and (max-width: 360px) {
-    .column, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-
-    .column {
-        float: left;
-        width: 80%;
-        margin-top: 6px;
-        padding: 10px;
-      }
-
-
-  }
-
-
-
-
-
-
-
-@media all and (min-width:1537px) and (max-width: 1920px){
-
-    .one-page{
-
-        font-family: Helvetica;
-        background-color: #ebebeb;
-        background-attachment: fixed;
-        background-image: url(images/bg-cirno.jpg);
-        background-position:top;
-        background-repeat: no-repeat;
-        background-size: 60cm;
-        padding-top: 0px;
-        padding-left: 3px;
-        padding-right: 3px;
-    }
-
-    .main-content-wrapper{
-        
-        padding-top: 30px;
-        padding-left: 20px;
- 
-     }
-
-     .page-header{
-
-        background-color: rgb(27, 27, 27);
-        height: 50px;
-        
-    
-    }
-
-    .Page-content-markers{
-
-        margin-left: -15px;
-    }
-
-    .header-content-marker{
-
-        font-size: 25px;
-        list-style: none;
-        padding-right: 40px;
-        padding-top: 7px;
-        
-    }
-
-    .marisa-ico2{
-
-        margin-left: -12px;
-        padding-top: 3px;
-
-    }
-
-    .marisa-ico{
-
-        display: none;
-
-    }
-
-    .header-link{
-
-        color: #ebebeb;
-        text-decoration: none;
-
-    }
-
-    .header-content-marker a{
-
-        text-decoration: none;
-
-    }
-
-    .section-divider{
-
-        font-size: 30px;
-
-    }
-
-    .info-block{
-
-        font-size: 25px;
-        line-height: 30px;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    .main-content-wrapper{
-
-        background-color: #ebebeb7e;
-
-    }
-
 }
 
-@media all and (min-width:1367px) and (max-width: 1536px){
+@media all and (max-width: 1920px) {
+  .one-page {
+    background-size: 52cm;
+  }
 
-    .one-page{
+  .page-header {
+    background-color: rgb(27, 27, 27);
+    height: 60px;
+  }
 
-        font-family: Helvetica;
-        background-color: #ebebeb;
-        background-attachment: fixed;
-        background-image: url(images/bg-cirno.jpg);
-        background-position:top;
-        background-repeat: no-repeat;
-        background-size: 60cm;
-        padding-top: 0px;
-        padding-left: 3px;
-        padding-right: 3px;
-    }
+  .header-content-marker {
+    font-size: 30px;
+    padding-right: 70px;
+    padding-top: 10px;
+  }
 
-    .main-content-wrapper{
-        
-        padding-top: 50px;
-        padding-left: 20px;
- 
-     }
+  .section-divider {
+    font-size: 40px;
+  }
 
-     .page-header{
-
-        background-color: rgb(27, 27, 27);
-        height: 50px;
-        
-    
-    }
-
-    .Page-content-markers{
-
-        margin-left: -15px;
-    }
-
-    .header-content-marker{
-
-        font-size: 25px;
-        list-style: none;
-        padding-right: 40px;
-        padding-top: 7px;
-        
-    }
-
-    .marisa-ico2{
-
-        margin-left: -12px;
-        padding-top: 3px;
-
-    }
-
-    .marisa-ico{
-
-        display: none;
-
-    }
-
-    .header-link{
-
-        color: #ebebeb;
-        text-decoration: none;
-
-    }
-
-    .header-content-marker a{
-
-        text-decoration: none;
-
-    }
-
-    .section-divider{
-
-        font-size: 30px;
-        
-
-    }
-
-    .info-block{
-
-        font-size: 25px;
-        line-height: 25px;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    .main-content-wrapper{
-
-        background-color: #ebebeb7e;
-
-    }
-
+  .info-block {
+    font-size: 32px;
+    line-height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
 }
 
-@media all and (min-width:415px) and (max-width: 1366px){
+@media all and (max-width: 1536px) {
+  .section-divider {
+    font-size: 35px;
+  }
 
-    .one-page{
-
-        font-family: Helvetica;
-        background-color: #ebebeb;
-        background-attachment: fixed;
-        background-image: url(images/bg-cirno.jpg);
-        background-position:top;
-        background-repeat: no-repeat;
-        background-size: 50cm;
-        padding-top: 0px;
-        padding-left: 3px;
-        padding-right: 3px;
-    }
-
-    .main-content-wrapper{
-        
-        padding-top: 50px;
-        padding-left: 20px;
- 
-     }
-
-     .page-header{
-
-        background-color: rgb(27, 27, 27);
-        height: 50px;
-        
-    
-    }
-
-    .Page-content-markers{
-
-        margin-left: -15px;
-    }
-
-    .header-content-marker{
-
-        font-size: 25px;
-        list-style: none;
-        padding-right: 40px;
-        padding-top: 7px;
-        
-    }
-
-    .marisa-ico2{
-
-        margin-left: -12px;
-        padding-top: 3px;
-
-    }
-
-    .marisa-ico{
-
-        display: none;
-
-    }
-
-    .header-link{
-
-        color: #ebebeb;
-        text-decoration: none;
-
-    }
-
-    .header-content-marker a{
-
-        text-decoration: none;
-
-    }
-
-    .section-divider{
-
-        font-size: 20px;
-        opacity: 1;
-
-    }
-
-    .info-block{
-
-        font-size: 12px;
-        line-height: 18px;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    .main-content-wrapper{
-
-        background-color: #ebebeb7e;
-
-    }
-
+  .info-block {
+    font-size: 30px;
+    line-height: 35px;
+  }
 }
 
-@media all and (min-width: 361px) and (max-width: 414px) {
+@media all and (max-width: 1366px) {
+  .header-content-marker {
+    font-size: 25px;
+  }
 
-    .one-page{
+  .section-divider {
+    font-size: 30px;
+  }
 
-        font-family: Helvetica;
-        background-color: #ebebeb;
-        background-attachment:fixed;
-        background-image: url(images/bg-reimu.jpg);
-        background-position:top;
-        background-repeat: no-repeat;
-        background-size: 15cm;
-        padding-top: 0px;
-        padding-left: 3px;
-        padding-right: 3px;
-    }
+  .info-block {
+    font-size: 28px;
+    line-height: 33px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
 
-    
-    .main-content-wrapper{
-       
-       padding-top: 50px;
-       padding-left: 20px;
+@media all and (max-width: 1080px) {
+  .header-content-marker {
+    font-size: 20px;
+    padding-top: 15px;
+  }
 
-    }
+  .marisa-ico2 {
+    margin-left: -12px;
+    padding-top: 3px;
+  }
 
-    .page-header{
+  .info-block {
+    font-size: 27px;
+    line-height: 30px;
+    padding-right: 5px;
+    padding-left: 10px;
+  }
+}
 
-        background-color: rgb(27, 27, 27);
-        height: 20px;
-        position: fixed;
-        top: 0px;
-    
-    }
+@media all and (max-width: 780px) {
+  .one-page {
+    background-image: url(images/bg-rumia.jpg);
+    background-size: 21cm;
+  }
 
+  .Page-content-markers {
+    margin-left: -15px;
+  }
 
-    .Page-content-markers{
+  .header-content-marker {
+    font-size: 17px;
+    list-style: none;
+    padding-right: 18px;
+    padding-top: 15px;
+  }
 
-        margin-left: -15px;
-    }
+  .marisa-ico2 {
+    margin-left: -12px;
+    padding-top: 3px;
+  }
 
-    .header-content-marker{
+  .info-block {
+    line-height: 25px;
+    font-size: 23px;
+  }
+}
 
-        font-size: 7px;
-        list-style: none;
-        padding-right: 11px;
-        padding-top: 7px;
-        
-    }
+@media all and (max-width: 650px) {
+  .one-page {
+    background-size: 18cm;
+  }
 
-    .marisa-ico{
+  .header-content-marker {
+    font-size: 13px;
+    list-style: none;
+    padding-right: 11px;
+    padding-top: 15px;
+  }
 
-        margin-left: -12px;
-        padding-top: 3px;
+  .marisa-ico {
+    display: none;
+  }
+  .marisa-ico2 {
+    margin-left: -12px;
+    padding-top: 3px;
+  }
+}
 
-    }
-    .marisa-ico2{
+@media all and (max-width: 414px) {
+  .one-page {
+    background-size: 15cm;
+  }
 
-        display: none;
+  .main-content-wrapper {
+    padding-left: 20px;
+  }
 
-    }
+  .page-header {
+    background-color: rgb(27, 27, 27);
+    height: 20px;
+    position: sticky;
+    top: 0px;
+  }
 
-    .header-link{
+  .Page-content-markers {
+    margin-left: -15px;
+  }
 
-        color: #ebebeb;
+  .header-content-marker {
+    font-size: 7px;
+    list-style: none;
+    padding-right: 11px;
+    padding-top: 7px;
+  }
 
-    }
+  .marisa-ico {
+    margin-left: -12px;
+    padding-top: 3px;
+  }
+  .marisa-ico2 {
+    display: none;
+  }
 
-    .header-content-marker a{
+  .header-link {
+    color: #ebebeb;
+  }
 
-        text-decoration: none;
+  .header-content-marker a {
+    text-decoration: none;
+  }
 
-    }
+  .section-divider {
+    font-size: 20px;
+    opacity: 1;
+  }
 
-    .section-divider{
+  .info-block {
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 
-        font-size: 20px;
-        opacity: 1;
-
-    }
-
-    .info-block{
-
-        font-size: 12px;
-        line-height: 18px;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    .main-content-wrapper{
-
-        background-color: #ebebeb7e;
-
-    }
-
+  .main-content-wrapper {
+    background-color: #ebebeb7e;
+  }
 }
 
 @media all and (max-width: 360px) {
+  .main-content-wrapper {
+    padding: 10px 10px 10px 10px;
+  }
 
-    .one-page{
+  .page-header {
+    background-color: rgb(27, 27, 27);
+    height: 20px;
+    position: sticky;
+    top: 0px;
+  }
 
-        font-family: Helvetica;
-        background-color: #ebebeb;
-        background-attachment:fixed;
-        background-image: url(images/bg-rumia.jpg);
-        background-position:top;
-        background-repeat: no-repeat;
-        background-size: 15cm;
-        padding-top: 0px;
-        padding-left: 3px;
-        padding-right: 3px;
-    }
+  .Page-content-markers {
+    margin-left: -15px;
+    padding-top: 0px;
+  }
 
-    
-    .main-content-wrapper{
-        
-       padding-top: 50px;
-       padding-left: 20px;
+  .header-content-marker {
+    font-size: 7px;
+    list-style: none;
+    padding-right: 11px;
+    padding-top: 7px;
+  }
 
-    }
+  .marisa-ico {
+    margin-left: -12px;
+    padding-top: 3px;
+    display: inline;
+  }
+  .marisa-ico2 {
+    display: none;
+  }
 
-    .page-header{
+  .header-link {
+    color: #ebebeb;
+  }
 
-        background-color: rgb(27, 27, 27);
-        height: 20px;
-        position: fixed;
-        top: 0px;
-    
-    }
+  .header-content-marker a {
+    text-decoration: none;
+  }
 
+  .section-divider {
+    font-size: 20px;
+    opacity: 1;
+  }
 
-    .Page-content-markers{
-        padding-top: 30px;
-        margin-left: -15px;
-    }
+  .info-block {
+    font-size: 12px;
+    line-height: 18px;
+    padding-right: 5px;
+    padding-left: 5px;
+  }
 
-    .header-content-marker{
-
-        font-size: 7px;
-        list-style: none;
-        padding-right: 11px;
-        padding-top: 7px;
-        
-    }
-
-    .marisa-ico{
-
-        margin-left: -12px;
-        padding-top: 3px;
-
-    }
-    .marisa-ico2{
-
-        display: none;
-
-    }
-
-    .header-link{
-
-        color: #ebebeb;
-
-    }
-
-    .header-content-marker a{
-
-        text-decoration: none;
-
-    }
-
-    .section-divider{
-
-        font-size: 20px;
-        opacity: 1;
-
-    }
-
-    .info-block{
-
-        font-size: 12px;
-        line-height: 18px;
-        padding-right: 5px;
-        padding-left: 5px;
-
-    }
-
-    .main-content-wrapper{
-
-        background-color: #ebebeb7e;
-
-    }
-
+  .main-content-wrapper {
+    background-color: #ebebeb7e;
+  }
 }
-
