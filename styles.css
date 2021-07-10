@@ -197,6 +197,13 @@ input[type="submit"]:hover {
 }
 
 @media all and (max-width: 1080px) {
+  
+  .header-content-marker {
+    font-size: 30px;
+    padding-right: 40px;
+    padding-top: 12px;
+  }
+  
   .header-content-marker {
     font-size: 20px;
     padding-top: 15px;
